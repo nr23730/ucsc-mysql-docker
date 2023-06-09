@@ -1,4 +1,4 @@
-ARG VERSION=10.11.3
+ARG VERSION=10.11.4
 FROM mariadb:${VERSION} as builder
 
 COPY $PWD/docker-entrypoint.sh /home/docker-entrypoint.sh
